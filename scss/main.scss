@@ -171,6 +171,7 @@ nav {
 // Trending
 .trending {
     background: $bg-white;
+    height: 690px;
 
     .heading-lg {
         text-align: center;
@@ -190,6 +191,7 @@ nav {
 
     &-item {
         padding: 10px;
+        cursor: pointer;
     }
 
     &-tracks {
@@ -202,3 +204,30 @@ nav {
         padding: 13px 23px;
     }
 }
+
+// Devices 
+.devices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+    .store-imgs {
+        height: 100px;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+
+    .content-side {
+        text-align: center;
+    }
+
+    p {
+        font-size: 19px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+}
+
+
+

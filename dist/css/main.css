@@ -120,7 +120,8 @@ nav {
     margin-left: 10px; }
 
 .trending {
-  background: #fff; }
+  background: #fff;
+  height: 690px; }
   .trending .heading-lg {
     text-align: center; }
   .trending-image {
@@ -132,10 +133,27 @@ nav {
     justify-content: center;
     align-items: center; }
   .trending-item {
-    padding: 10px; }
+    padding: 10px;
+    cursor: pointer; }
   .trending-tracks {
     margin: 25px auto;
     width: 300px;
     padding: 25px; }
   .trending a:last-child {
     padding: 13px 23px; }
+
+.devices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem; }
+  .devices .store-imgs {
+    height: 100px;
+    margin-top: 2rem;
+    cursor: pointer; }
+  .devices .content-side {
+    text-align: center; }
+  .devices p {
+    font-size: 19px;
+    width: 350px;
+    margin-bottom: 10px; }
