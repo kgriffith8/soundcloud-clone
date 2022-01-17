@@ -44,6 +44,19 @@ li {
   font-size: 2rem;
   line-height: 2.5; }
 
+.song-label {
+  font-weight: 300;
+  font-size: 14px;
+  color: #000; }
+
+.artist-label {
+  font-weight: 200;
+  font-size: 12px;
+  color: #999;
+  cursor: pointer; }
+  .artist-label:hover {
+    color: #000; }
+
 .header {
   background: url(/dist/img/header.jpg);
   padding: 25px;
@@ -84,7 +97,7 @@ nav {
       padding: 12px 30px; }
 
 .search {
-  background: #f2f2f2;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,3 +118,24 @@ nav {
   .search > a {
     padding: 14px;
     margin-left: 10px; }
+
+.trending {
+  background: #fff; }
+  .trending .heading-lg {
+    text-align: center; }
+  .trending-image {
+    height: 180px;
+    width: 180px;
+    display: block; }
+  .trending-row {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .trending-item {
+    padding: 10px; }
+  .trending-tracks {
+    margin: 25px auto;
+    width: 300px;
+    padding: 25px; }
+  .trending a:last-child {
+    padding: 13px 23px; }
