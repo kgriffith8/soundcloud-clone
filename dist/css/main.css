@@ -157,3 +157,14 @@ nav {
     font-size: 19px;
     width: 350px;
     margin-bottom: 10px; }
+
+.creators {
+  background: url("/dist/img/creator.jpg");
+  color: #fff;
+  height: 300px; }
+  .creators-text {
+    padding: 45px;
+    max-width: 500px;
+    margin: 0 45px 45px 45px; }
+  .creators h3, .creators p, .creators a {
+    margin-bottom: 15px; }

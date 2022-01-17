@@ -229,5 +229,22 @@ nav {
     }
 }
 
+//  Creators
+.creators {
+    background: url("/dist/img/creator.jpg");
+    color: $text-light;
+    height: 300px;
+
+    &-text {
+        padding: 45px;
+        max-width: 500px;
+        margin: 0 45px 45px 45px;
+    }
+
+    h3, p, a {
+        margin-bottom: 15px;
+    }
+}
+
 
 
