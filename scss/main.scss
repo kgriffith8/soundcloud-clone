@@ -119,3 +119,34 @@ nav {
         }
     }
 }
+
+// Search 
+.search {
+    background: $bg-light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: #fff;
+
+    i {
+        color: $text-grey;
+        position: relative;
+        left: -15px;
+    }
+
+    & input[type="text"] {
+        width: 600px;
+        height: 46px;
+        padding: 0 16px;
+        font-size: 16px;
+        background-color: #f2f2f2;
+        outline: none;
+        border: none;
+    }
+
+    & > a {
+        padding: 14px;
+        margin-left: 10px;
+    }
+}

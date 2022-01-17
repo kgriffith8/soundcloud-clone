@@ -82,3 +82,26 @@ nav {
     .cta-btns > a {
       margin: 0 15px;
       padding: 12px 30px; }
+
+.search {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: #fff; }
+  .search i {
+    color: #999;
+    position: relative;
+    left: -15px; }
+  .search input[type="text"] {
+    width: 600px;
+    height: 46px;
+    padding: 0 16px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    outline: none;
+    border: none; }
+  .search > a {
+    padding: 14px;
+    margin-left: 10px; }
