@@ -1,3 +1,121 @@
-h1 {
-    color: #c23333;
+@import 'variables';
+
+// Reset
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: $bg-light;
+    font-family: $font;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+// Buttons and Container
+.btn {
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 14px;
+    background: $text-dark;
+    color: $text-light;
+    border-radius: 5px;
+
+    &-outline {
+        border: 1px solid $text-light;
+        border-radius: 5px;
+    }
+
+    &-outline-orange {
+        // border: 1px solid $orange;
+        background: $text-light;
+        color: $orange;
+    }
+
+    &-orange {
+        background: $orange;
+        color: $text-light;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1260px;
+    height: 450px;
+}
+
+// Text Styles
+.heading-lg {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5;
+}
+
+// Header
+.header {
+    background: url(/dist/img/header.jpg);
+    padding: 25px;
+    color: $text-light;
+    border-top: 4px solid $orange;
+
+    &-logo {
+        max-width: 180px;
+        cursor: pointer;
+    }
+
+    &-btns {
+        max-width: 400px;
+
+        & > a {
+            margin-right: 5px;
+        }
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+}
+
+.cta {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    margin-top: 5rem;
+
+    p {
+        max-width: 530px;
+        font-size: 18px;
+    }
+
+    &-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+
+        & > a {
+            margin: 0 15px;
+            padding: 12px 30px;
+        }
+    }
 }
